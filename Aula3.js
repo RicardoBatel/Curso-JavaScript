@@ -43,7 +43,7 @@ const lista = [
 const filtrarPessoa = (pessoa) => pessoa.idade > 20;
 
 const listaFiltrada = lista.filter(filtrarPessoa); 
-//agora a função filtrarPessoa é uma função nomeada, e é passada para o filter, o resultado é o mesmo do exemplo anterior, ou seja, irá retornar somente os objetos que tiverem a idade maior que 20
+//agora a função filtrarPessoa é uma função nomeada, e é passada para o filter, o resultado é o mesmo do exemplo anterior, ou seja, irá retornar somente os objetos que tiverem a idade maior que 20.
 
 console.log(lista);
 
